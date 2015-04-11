@@ -11,7 +11,7 @@ var gulp = require('gulp');
 // == Register task: scripts
 gulp.task('scripts', ['lint'], function(){
   
-  console.log("compile scripts.");
+  console.log('STUB: compile scripts.');
 
 });
 

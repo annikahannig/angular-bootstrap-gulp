@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /**
  * Task: serve
@@ -25,10 +25,10 @@ gulp.task('serve', function(){
   // Configure server
   var server = http.createServer(app);
 
-  server.listen(config.serve.port);
+  server.listen(global.config.serve.port);
   server.on('error', function(e){
     if(e.code === 'EADDRINUSE') {
-      gutil.log("Address is already in use. Is a 'serve' task running?");
+      gutil.log('Address is already in use. Is a "serve" task running?');
     }
     else {
       throw e;
