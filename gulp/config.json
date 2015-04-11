@@ -1,0 +1,18 @@
+{
+  "serve": {
+    "port": 9000
+  },
+
+  "angular": {
+    "bundle": [
+      "angular/angular.js",
+
+      "angular-animate/angular-animate.js",
+      "angular-cookies/angular-cookies.js",
+      "angular-touch/angular-touch",
+
+      "angular-ui-router/release/angular-ui-router.js"
+    ]
+  }
+}
+
