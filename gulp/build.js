@@ -22,9 +22,8 @@ tasks.forEach(function(task){
   require('./tasks/' + task);
 });
 
-// == Register default task
-gulp.task('default', function() {
-  // Make a clean build.
+// == Register build task.
+gulp.task('build', function() {
   runSequence([
     'bower_components',
     'html',
@@ -33,6 +32,14 @@ gulp.task('default', function() {
     'stylesheets',
     'assets'
    ]);
-
 });
+
+// == Register default task
+gulp.task('default', function() {
+  runSequence(
+    'clean',
+    'build'
+  );
+});
+
 
