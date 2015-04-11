@@ -18,5 +18,7 @@
     'ngCookies'
   ]);
 
+  app.controller('mimimi', function() {} );
+
 })();
 
