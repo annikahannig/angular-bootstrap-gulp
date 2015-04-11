@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /**
  * The gulp configuration and tasks are splitted
