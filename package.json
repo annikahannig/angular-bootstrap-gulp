@@ -1,0 +1,28 @@
+{
+  "name": "angular-admin",
+  "version": "0.0.1",
+  "description": "Component orientet admin interface powered by angular.",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "admin"
+  ],
+  "author": "Matthias Hannig",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-6to5": "^3.0.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.4",
+    "run-sequence": "^1.0.2"
+  }
+}
