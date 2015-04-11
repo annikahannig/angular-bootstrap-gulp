@@ -28,6 +28,7 @@ gulp.task('default', function() {
   runSequence([
     'bower_components',
     'html',
+    'angular',
     'scripts',
     'stylesheets',
     'assets'

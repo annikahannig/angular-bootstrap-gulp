@@ -9,7 +9,7 @@
 var gulp = require('gulp');
 
 // == Register task: scripts
-gulp.task('scripts', ['lint', 'angular'], function(){
+gulp.task('scripts', ['lint'], function(){
   
   console.log('STUB: compile scripts.');
 
