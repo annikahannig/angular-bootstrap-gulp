@@ -11,7 +11,7 @@ var gulp = require('gulp');
 // == Register task: watch
 gulp.task('assets', function(){
   
-  console.log("process assets.");
+  console.log('STUB: process assets.');
 
 });
 
