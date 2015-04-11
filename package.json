@@ -4,7 +4,7 @@
   "description": "Boilerplate code for an angular/bootstrap project built with gulp.",
   "main": "build/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp build"
   },
   "keywords": [
     "angular",
