@@ -1,10 +1,10 @@
 {
-  "name": "angular-admin",
+  "name": "angular-bootstrap-gulp",
   "version": "0.0.1",
   "authors": [
     "Matthias Hannig <matthias@hannig.cc>"
   ],
-  "description": "Admin interface powered by angular",
+  "description": "Boilerplate code for and angular/bootstrap project built by gulp.",
   "main": "build/index.html",
   "moduleType": [
     "es6",
@@ -15,7 +15,7 @@
     "admin"
   ],
   "license": "MIT",
-  "homepage": "http://hannig.cc/angular-admin",
+  "homepage": "http://github.com/mhannig/angular-bootstrap-gulp",
   "ignore": [
     "**/.*",
     "node_modules",
