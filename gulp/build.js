@@ -25,14 +25,13 @@ tasks.forEach(function(task){
 // == Register default task
 gulp.task('default', function() {
   // Make a clean build.
-  runSequence(
-    [ 'bower_components',
-      'html',
-      'scripts',
-      'stylesheets',
-      'assets',
-    ],
-    'watch');
+  runSequence([
+    'bower_components',
+    'html',
+    'scripts',
+    'stylesheets',
+    'assets'
+   ]);
 
 });
 
