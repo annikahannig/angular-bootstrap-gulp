@@ -1,20 +1,19 @@
 'use strict';
 
 /**
- * Angular Admin
- * -------------
+ * Angular App 
+ * ------------
  *
- * Opinionated component oriented admin interface powered
- * by angular.
- *
- * (c) 2015 Matthias Hannig
+ * My Angular App. For My Project.
+ * 
+ * Insert copyright here.
  *
  */
 
 (function() {
   
   // Initialize admin application.
-  var app = angular.module('admin', [
+  var app = angular.module('app', [
     'ngAnimate',
     'ngCookies'
   ]);
