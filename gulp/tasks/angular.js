@@ -17,7 +17,7 @@ var uglify = require('gulp-uglifyjs');
 gulp.task('angular', function() {
   
   var files = global.config.angular.bundle.map(function(f){
-    return 'app/bower_components/' + f;
+    return 'bower_components/' + f;
   });
 
   gulp.src(files)

@@ -10,7 +10,7 @@ var gulp  = require('gulp');
 
 // == Register task
 gulp.task('bower_components', function(){
-  gulp.src('app/bower_components/**')
+  gulp.src('bower_components/**')
     .pipe(gulp.dest('build/lib/'));
 });
 
