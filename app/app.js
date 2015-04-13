@@ -11,14 +11,21 @@
  */
 
 (function() {
+
+  require('./directives/');
   
   // Initialize admin application.
-  var app = angular.module('app', [
+  angular.module('app', [
     'ngAnimate',
-    'ngCookies'
+    'ngCookies',
+
+    'app.components'
   ]);
 
-  app.controller('mimimi', function() {} );
+  // Bootstrap angular
+  angular.element(document).ready(function(){
+    angular.bootstrap(document, ['app']);
+  });
 
 })();
 
