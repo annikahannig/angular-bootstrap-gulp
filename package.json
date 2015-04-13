@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Boilerplate code for an angular/bootstrap project built with gulp.",
   "main": "build/index.html",
+  "repository": "https://github.com/mhannig/angular-bootstrap-gulp.git",
   "scripts": {
     "test": "gulp build"
   },
@@ -16,6 +17,7 @@
     "express": "^4.12.3",
     "gulp": "^3.8.11",
     "gulp-6to5": "^3.0.0",
+    "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.3.1",
     "gulp-cssmin": "^0.1.6",
     "gulp-jshint": "^1.10.0",
