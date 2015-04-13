@@ -11,6 +11,14 @@ var gulp = require('gulp');
 
 // == Register task
 gulp.task('html', function(){
+
+  // Copy main app
   gulp.src('app/index.html').pipe(gulp.dest('build/'));
+
+  // Copy all other templates markdown
+  gulp.src('app/**/*.html')
+    .pipe(gulp.dest('build/'));
+
 });
+
 

@@ -11,7 +11,9 @@ var gulp = require('gulp');
 // == Register task: watch
 gulp.task('assets', function(){
   
-  console.log('STUB: process assets.');
+  // Just copy all assets.
+  gulp.src('app/assets/**/*')
+    .pipe(gulp.dest('build/assets'));
 
 });
 

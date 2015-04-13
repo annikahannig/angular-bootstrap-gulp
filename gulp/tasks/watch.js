@@ -17,6 +17,7 @@ gulp.task('watch', function(){
   gulp.watch('app/**/*.js',     ['scripts']);
   gulp.watch('app/**/*.less',   ['stylesheets']);
   gulp.watch('app/**/*.html',   ['html']);
+  gulp.watch('app/assets/**/*', ['assets']);
 
 });
 
