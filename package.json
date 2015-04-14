@@ -9,14 +9,15 @@
   },
   "keywords": [
     "angular",
-    "admin"
+    "bootstrap",
+    "gulp",
+    "less"
   ],
   "author": "Matthias Hannig",
   "license": "MIT",
   "devDependencies": {
     "express": "^4.12.3",
     "gulp": "^3.8.11",
-    "gulp-6to5": "^3.0.0",
     "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.3.1",
     "gulp-cssmin": "^0.1.6",
