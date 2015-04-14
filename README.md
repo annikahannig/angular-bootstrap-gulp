@@ -6,13 +6,13 @@
 Boilerplate code for an angular app using bootstrap and less.
 Build it with:
 
-   $ sudo npm install -g gulp
-   $ sudo npm install -g bower
+    $ sudo npm install -g gulp
+    $ sudo npm install -g bower
 
-   $ npm install
-   $ bower install
+    $ npm install
+    $ bower install
 
-   $ gulp
+    $ gulp
 
 
 ## Gulp tasks
