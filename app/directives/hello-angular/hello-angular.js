@@ -20,7 +20,7 @@ var helloAngularCtrl = function($scope){
 var helloAngular = function($interval){
   var self = {
     templateUrl: 'directives/hello-angular/hello-angular.html',
-    link: function(scope, el, attr){
+    link: function(scope, el){
       
       // Register update interval for time
       var updateTime = $interval(function(){
@@ -43,7 +43,7 @@ var helloAngular = function($interval){
 };
 
 // == Register directive
-var app = angular.module('app.components');
+var app = angular.module('app.directives');
 app.directive( 'helloAngular', [
   '$interval',
   helloAngular

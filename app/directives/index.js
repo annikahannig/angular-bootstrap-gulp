@@ -1,16 +1,12 @@
 'use strict';
 
 /**
- * All custom components
+ * Require all directives
+ * ----------------------
  */
 
-(function(){
+// New angular module for directives
+angular.module('app.directives',[]);
 
-  // New angular module for components
-  angular.module('app.components',[]);
-
-  // Require all components
-  require('./hello-angular/hello-angular');
-
-})();
+require('./hello-angular/hello-angular');
 
