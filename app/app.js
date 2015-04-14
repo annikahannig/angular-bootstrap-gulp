@@ -10,22 +10,18 @@
  *
  */
 
-(function() {
+require('./directives/');
 
-  require('./directives/');
-  
-  // Initialize admin application.
-  angular.module('app', [
-    'ngAnimate',
-    'ngCookies',
+// Initialize admin application.
+angular.module('app', [
+  'ngAnimate',
+  'ngCookies',
 
-    'app.components'
-  ]);
+  'app.directives'
+]);
 
-  // Bootstrap angular
-  angular.element(document).ready(function(){
-    angular.bootstrap(document, ['app']);
-  });
-
-})();
+// Bootstrap angular
+angular.element(document).ready(function(){
+  angular.bootstrap(document, ['app']);
+});
 
