@@ -9,7 +9,7 @@
 
       "angular-animate/angular-animate.js",
       "angular-cookies/angular-cookies.js",
-      "angular-touch/angular-touch",
+      "angular-touch/angular-touch.js",
 
       "angular-ui-router/release/angular-ui-router.js"
     ]
