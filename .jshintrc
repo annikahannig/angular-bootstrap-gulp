@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "require": false,
+    "angular": false,
+    "document": false
+  },
+  "node": true
+}
